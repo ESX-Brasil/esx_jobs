@@ -1,35 +1,38 @@
 # esx_jobs
-### Requirements
-- [esx_addonaccount](https://github.com/ESX-Org/esx_addonaccount)
-- [esx_skin](https://github.com/ESX-Org/esx_skin)
 
-### Features
-- Jobs: slaughterer, miner, fisherman, journalist, fueler, tailor
-- Security deposit when renting a job vehicle (given back in case of crash, to the amount of damage the vehicle has already taken)
-- Easy system to create jobs (samples in jobs folder)
-- Item farming jobs
-This addon is an easy way to have farming jobs on your server, there is no player management.
+Todos os trabalhos legais para os jogadores de seu servidor!
 
-## Download & Installation
+### Requisitos
+- [esx_addonaccount](https://github.com/ESX-Brasil/esx_addonaccount)
+- [esx_skin](https://github.com/ESX-Brasil/esx_skin)
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
+### Características
+- Empregos: matadouro, mineiro, pescador, jornalista, abastecedor, alfaiate
+- Caução ao alugar um veículo de trabalho (devolvido em caso de acidente, para a quantidade de danos que o veículo já tenha sofrido)
+- Sistema fácil de criar trabalhos (amostras na pasta de trabalhos)
+- Trabalhos de criação de itens
+Este addon é uma maneira fácil de ter trabalhos agrícolas no seu servidor, não há gerenciamento de jogadores.
+
+## Download e Instalação
+
+### Usando [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx esx-org/esx_jobs
+fvm install --save --folder=esx esx-brasil/esx_jobs
 ```
 
-### Using Git
+### Usando Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_jobs [esx]/esx_jobs
+git clone https://github.com/ESX-Brasil/esx_jobs [esx]/esx_jobs
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_jobs/archive/master.zip
-- Put it in the `[esx]` directory
+### Manualmente
+- Download https://github.com/ESX-Brasil/esx_jobs/archive/master.zip
+- Coloque no diretório `[esx]`
 
 ## Installation
-- Import `esx_jobs.sql` into your database
-- Add this into your `server.cfg`
+- Importar `esx_jobs.sql` para seu banco de dados
+- Adicione isto ao seu `server.cfg`
 ```
 start esx_jobs
 ```
@@ -38,7 +41,7 @@ start esx_jobs
 ### License
 esx_jobs - jobs
 
-Copyright (C) 2015-2018 Jérémie N'gadi
+Copyright (C) 2015-2019 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
